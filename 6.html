@@ -1,0 +1,29 @@
+<script type="text/javascript">
+
+
+    var phy = parseInt(prompt("enter the Physics : "));
+    var che = parseInt(prompt("enter the Chemistry : "));
+    var bio = parseInt(prompt("enter the Biology : "));
+    var math = parseInt(prompt("enter the Mathematics  : "));
+    var com = parseInt(prompt("enter the Computer : "));
+
+
+    var per = (phy + che + bio + math + com)/5
+
+    if(per > 90){
+        document.write("Grade A");
+    }else if(per > 80){
+        document.write("Grade B");
+    }else if(per > 70){
+        document.write("Grade C");
+    }else if(per > 60){
+        document.write("Grade D");
+    }else if(per > 50){
+        document.write("Grade E");
+    }else if(per > 40){
+        document.write("Grade F");
+    }else{
+        document.write("You Are Fail");
+    }
+
+</script>
